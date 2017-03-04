@@ -27,7 +27,7 @@ module.exports = {
             smtpTransport(vsender)
         );
         transporter.sendMail({
-            to: 'eblaher@gmail.com',
+            to: 'gmedina@integrasoftware.com.mx',
             from: vsender.auth.user,
             subject: vsubject,
             html: vbody
